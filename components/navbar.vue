@@ -1,11 +1,13 @@
-<template>
+<template>  <v-responsive :aspect-ratio="0.5/0.001"> 
     <div>
       <v-app-bar
         color="deep-purple accent-4"
         dense
         dark
-        fixed
+       fixed
+       width="1600"
       >
+      
       <img class="mr-3" :src="require('../static/logo.png')" height="40" />
       <v-spacer />
       <v-btn 
@@ -60,7 +62,7 @@
       </v-btn>
       </v-app-bar>
     </div>
-    
+  </v-responsive>
   </template>
   <script>
     export default {
@@ -81,15 +83,25 @@
             this.$router.push('/');
         },
         scrolled() {
-            window.scrollTo(0, 2700);
+            window.scrollTo(0, 3000);
         },  goToContactus() {
             this.$router.push('/');
         },
         scrolling() {
-            window.scrollTo(0, 3300);
+            window.scrollTo(0, 3600);
         },  goToTestimonies() {
             this.$router.push('/');
         }
       }
     };
     </script>
+ <style>
+ .v-card--reveal {
+   align-items: center;
+   bottom: 0;
+   justify-content: center;
+   opacity: .5;
+   position: absolute;
+   width: 100%;
+ }
+ </style>

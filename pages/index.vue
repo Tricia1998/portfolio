@@ -69,7 +69,7 @@
                     </p>
                     <p>ideas to life in the browser.</p>
                     <p class="white purple--text mt-15">Languages I speak:</p>
-                    <p>HTML, CSS, </p>
+                    <p>HTML, CSS,</p>
                     <p class="white purple--text mt-15">Development Tools:</p>
                     <p>Bootstrap</p>
                     <p>Vuetify</p>
@@ -106,40 +106,40 @@
                     <p class="white purple--text mt-15">Design Tools:</p>
                     <p>Adobe Lightroom</p>
                     <p>Adobe Photoshop</p>
-                    <p>Figma</p>            
+                    <p>Figma</p>
                   </v-card>
-                </v-col> <v-btn large a href="./resume.pdf" target="_blank"> View My Full cv
-              <v-icon
-          dark
-          right
-        >
-          mdi-arrow-right-bold-outline
-        </v-icon>
-            </v-btn>
+                </v-col>
+                <v-btn large a href="./resume.pdf" target="_blank">
+                  View My Full cv
+                  <v-icon dark right> mdi-arrow-right-bold-outline </v-icon>
+                </v-btn>
               </v-row>
-              
+
               <v-divider color="purple" inset></v-divider>
             </v-card>
-
             <v-card
-              align="center"
-              justify="space-around"
-              class="white black--text"
+              md="12"
+              width="1350"
+              class="mt-15 black--text"
+              color="white"
               flat
             >
-              <p class="text-h3 ma-8" align="center" justify="space-around">
+              <p class="text-h3 ma-6" align="center" justify="space-around">
                 Portfolio
               </p>
-              <p class="ma-8" align="center" justify="space-around">
+              <p class="mt-8" align="center" justify="space-around">
                 Here are a few past design projects I've worked on. Want to see
                 more?
+              </p>
+              <p align="center" justify="space-around">
+                View Our App Catalogue
                 <v-btn
                   a
-                  href="mailto:faraisepete@gmail.com"
+                  href="https://wa.me/c/263783108500"
                   color="deep-purple accent-4"
                   class="white--text"
                 >
-                  Email Me
+                  View
                 </v-btn>
               </p>
             </v-card>
@@ -155,32 +155,37 @@
                 :class="{ 'on-hover': hover }"
                 class="ma-10 white black--text"
               >
-                <v-img
-                  :aspect-ratio="16 / 9"
-                  src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
-                >
-                  <v-expand-transition>
-                    <div
-                      v-if="hover"
-                      class="d-flex transition-fast-in-fast-out deep-purple accent-4 v-card--reveal text-h6 white--text"
-                      style="height: 40%"
-                    >
-                      $14.99
+                <img
+                  alt="Vue logo"
+                  src="../static/anixsys.png"
+                  width="360"
+                  height="230"
+                />
 
-                      <div class="align-self-center">
-                        <v-btn
-                          absolute
-                          color="orange"
-                          class="white--text align-center"
-                          fab
-                          small
-                        >
-                          text
-                        </v-btn>
-                      </div>
+                <v-expand-transition>
+                  <div
+                    v-if="hover"
+                    class="d-flex transition-fast-in-fast-out deep-purple accent-4 v-card--reveal text-h6 white--text"
+                    style="height: 100%"
+                  >
+                    <div class="align-self-center">
+                      <v-btn text a href="https://anixsys.co.zw/">
+                        <v-card-text class="pt-6" style="position: relative">
+                          <div class="white--text text-h6 mb-2">
+                            Anixsys System
+                          </div>
+                          <h3 class="text-h4 white--text mb-2">
+                           
+                          </h3>
+                          <div class="text-h6 mb-2">
+                            For all software development<br />
+                            and graphic design projects
+                          </div>
+                        </v-card-text>
+                      </v-btn>
                     </div>
-                  </v-expand-transition>
-                </v-img>
+                  </div>
+                </v-expand-transition>
               </v-card>
             </v-hover>
           </v-col>
@@ -191,32 +196,35 @@
                 :class="{ 'on-hover': hover }"
                 class="ma-10 white black--text"
               >
-                <v-img
-                  :aspect-ratio="16 / 9"
-                  src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
-                >
-                  <v-expand-transition>
-                    <div
-                      v-if="hover"
-                      class="d-flex transition-fast-in-fast-out deep-purple accent-4 v-card--reveal text-h6 white--text"
-                      style="height: 100%"
-                    >
-                      $14.99
+                <img
+                  alt="Vue logo"
+                  src="../static/login.png"
+                  width="360"
+                  height="230"
+                />
 
-                      <div class="align-self-center">
-                        <v-btn
-                          absolute
-                          color="orange"
-                          class="white--text align-center"
-                          fab
-                          small
-                        >
-                          text
-                        </v-btn>
-                      </div>
+                <v-expand-transition>
+                  <div
+                    v-if="hover"
+                    class="d-flex transition-fast-in-fast-out deep-purple accent-4 v-card--reveal text-h6 white--text"
+                    style="height: 100%"
+                  >
+                    <div class="align-self-center">
+                      <v-btn text a href="https://portal.praz.org.zw/" >
+                        <v-card-text class="pt-6" style="position: relative">
+                          <div class="white--text text-h6 mb-2">
+                            PRAZ Website
+                          </div>
+                         
+                          <div class="text-h6 mb-2">
+                            For All online Registration and<br />
+                            Tender Application
+                          </div>
+                        </v-card-text>
+                      </v-btn>
                     </div>
-                  </v-expand-transition>
-                </v-img>
+                  </div>
+                </v-expand-transition>
               </v-card>
             </v-hover>
           </v-col>
@@ -227,144 +235,71 @@
                 :class="{ 'on-hover': hover }"
                 class="ma-10 white black--text"
               >
-                <v-img
-                  :aspect-ratio="16 / 9"
-                  src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
-                >
-                  <v-expand-transition>
-                    <div
-                      v-if="hover"
-                      class="d-flex transition-fast-in-fast-out deep-purple accent-4 v-card--reveal text-h6 white--text"
-                      style="height: 100%"
-                    >
-                      $14.99
+                <img
+                  alt="Vue logo"
+                  src="../static/home.png"
+                  width="360"
+                  height="230"
+                />
 
-                      <div class="align-self-center">
-                        <v-btn
-                          absolute
-                          color="orange"
-                          class="white--text align-center"
-                          fab
-                          small
-                        >
-                          text
-                        </v-btn>
-                      </div>
+                <v-expand-transition>
+                  <div
+                    v-if="hover"
+                    class="d-flex transition-fast-in-fast-out deep-purple accent-4 v-card--reveal text-h6 white--text"
+                    style="height: 100%"
+                  >
+                    <div class="align-self-center">
+                      <v-btn text>
+                        <v-card-text class="pt-6" style="position: relative">
+                          <div class="white--text text-h6 mb-2">
+                            For the perfect meal
+                          </div>
+                          <h3 class="text-h4 white--text mb-2">
+                            QW cooking utensils
+                          </h3>
+                          <div class="text-h6 mb-2">
+                            Our Vintage kitchen utensils delight any chef.<br />
+                            Made of bamboo by hand
+                          </div>
+                        </v-card-text>
+                      </v-btn>
                     </div>
-                  </v-expand-transition>
-                </v-img>
+                  </div>
+                </v-expand-transition>
               </v-card>
             </v-hover>
           </v-col>
         </v-row>
         <v-row>
           <v-col md="4" sm="12">
-            <v-hover v-slot="{ hover }" open-delay="200">
-              <v-card
-                :elevation="hover ? 16 : 2"
-                :class="{ 'on-hover': hover }"
-                class="ma-10 white black--text"
-              >
-                <v-img
-                  :aspect-ratio="16 / 9"
-                  src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
-                >
-                  <v-expand-transition>
-                    <div
-                      v-if="hover"
-                      class="d-flex transition-fast-in-fast-out deep-purple accent-4 v-card--reveal text-h6 white--text"
-                      style="height: 100%"
-                    >
-                      $14.99
-
-                      <div class="align-self-center">
-                        <v-btn
-                          absolute
-                          color="orange"
-                          class="white--text align-center"
-                          fab
-                          small
-                        >
-                          text
-                        </v-btn>
-                      </div>
-                    </div>
-                  </v-expand-transition>
-                </v-img>
-              </v-card>
-            </v-hover>
+            <v-card class="ma-10 white black--text">
+              <img
+                alt="Vue logo"
+                src="../static/flier.png"
+                width="360"
+                height="400"
+              />
+            </v-card>
           </v-col>
           <v-col md="4" sm="12">
-            <v-hover v-slot="{ hover }" open-delay="200">
-              <v-card
-                :elevation="hover ? 16 : 2"
-                :class="{ 'on-hover': hover }"
-                class="ma-10 white black--text"
-              >
-                <v-img
-                  :aspect-ratio="16 / 9"
-                  src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
-                >
-                  <v-expand-transition>
-                    <div
-                      v-if="hover"
-                      class="d-flex transition-fast-in-fast-out deep-purple accent-4 v-card--reveal text-h6 white--text"
-                      style="height: 100%"
-                    >
-                      $14.99
-
-                      <div class="align-self-center">
-                        <v-btn
-                          absolute
-                          color="orange"
-                          class="white--text align-center"
-                          fab
-                          small
-                        >
-                          text
-                        </v-btn>
-                      </div>
-                    </div>
-                  </v-expand-transition>
-                </v-img>
-              </v-card>
-            </v-hover>
+            <v-card class="ma-10 white black--text">
+              <img
+                alt="Vue logo"
+                src="../static/flier.png"
+                width="360"
+                height="400"
+              />
+            </v-card>
           </v-col>
           <v-col md="4" sm="12">
-            <v-hover v-slot="{ hover }" open-delay="200">
-              <v-card
-                :elevation="hover ? 16 : 2"
-                :class="{ 'on-hover': hover }"
-                class="ma-10 white black--text"
-              >
-                <v-img
-                  :aspect-ratio="16 / 9"
-                  src="https://cdn.vuetifyjs.com/images/cards/kitchen.png"
-                >
-                  <v-expand-transition>
-                    <div
-                      v-if="hover"
-                      class="d-flex transition-fast-in-fast-out deep-purple accent-4 v-card--reveal text-h6 white--text"
-                      style="height: 100%"
-                    >
-                      $14.99
-
-                      <div class="align-self-center">
-                        <v-btn
-                          absolute
-                          color="orange"
-                          class="white--text align-center"
-                          fab
-                          small
-                        >
-                          text
-                        </v-btn>
-                      </div>
-                    </div>
-                  </v-expand-transition>
-                </v-img>
-              </v-card>
-            </v-hover>
+            <v-card class="ma-10 white black--text">
+              <img
+                alt="Vue logo"
+                src="../static/flier.png"
+                width="360"
+                height="400"
+              />
+            </v-card>
           </v-col>
         </v-row>
         <v-row>
@@ -511,8 +446,8 @@
                 you can trust with a project from start to finish.”
               </p>
             </v-carousel-item>
-          </v-carousel> 
-           </v-card>       
+          </v-carousel>
+        </v-card>
         <v-card>
           <v-footer dark padless flat>
             <v-card
@@ -552,20 +487,24 @@
                 <strong>Farai Patricia Sepete</strong>
                 <v-spacer></v-spacer>
 
-                <v-btn icon a href="https://www.facebook.com/profile.php?id=100011356793995">
-        <v-icon>mdi-facebook</v-icon>
-      </v-btn>
+                <v-btn
+                  icon
+                  a
+                  href="https://www.facebook.com/profile.php?id=100011356793995"
+                >
+                  <v-icon>mdi-facebook</v-icon>
+                </v-btn>
 
-      <v-btn icon a href="https://www.instagram.com/">
-        <v-icon>mdi-instagram</v-icon>
-      </v-btn>
+                <v-btn icon a href="https://www.instagram.com/">
+                  <v-icon>mdi-instagram</v-icon>
+                </v-btn>
 
-      <v-btn icon a href="https://twitter.com/home">
-        <v-icon>mdi-twitter</v-icon>
-      </v-btn>
-      <v-btn icon a href="https://www.linkedin.com/notifications/">
-        <v-icon>mdi-linkedin</v-icon>
-      </v-btn>
+                <v-btn icon a href="https://twitter.com/home">
+                  <v-icon>mdi-twitter</v-icon>
+                </v-btn>
+                <v-btn icon a href="https://www.linkedin.com/notifications/">
+                  <v-icon>mdi-linkedin</v-icon>
+                </v-btn>
               </v-card-text>
             </v-card>
           </v-footer>
@@ -579,7 +518,7 @@
 export default {
   data: () => ({
     cycle: false,
-    
+
     transparent: "rgba(255, 255, 255, 0)",
     valid: true,
     name: "",
@@ -598,7 +537,6 @@ export default {
         (v && v.length <= 10) || "Phone Number must be less than 10 characters",
     ],
     select: null,
-  
   }),
 
   methods: {
@@ -611,4 +549,3 @@ export default {
   },
 };
 </script>
-

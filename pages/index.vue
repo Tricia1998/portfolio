@@ -321,7 +321,7 @@
               outlined
               class="mx-auto ma-12"
             >
-              <v-form class="ma-8" ref="form" v-model="valid" lazy-validation>
+              <v-form class="ma-8" ref="form" v-model="valid" lazy-validation action="https://formsubmit.co/faraisepete@gmail.com">
                 <h2 class="ma=12">Contact Us</h2>
                 <v-text-field
                   v-model="name"
@@ -350,7 +350,7 @@
                   :disabled="!valid"
                   color="white"
                   class="mr-4 purple--text"
-                  @click="Send"
+                  a href="https://formsubmit.co/el/faraisepete@gmail.com" target="_blank">
                 >
                   Email Me
                 </v-btn>
